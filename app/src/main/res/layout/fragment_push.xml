@@ -2,32 +2,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingTop="10dp"
-    android:paddingBottom="10dp">
+    android:paddingTop="10dp">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:background="@drawable/fragment_back"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp">
-    <TextView
-        android:id="@+id/numbersTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/jalnan"
-        android:textStyle="bold"
-        android:textColor="#FF5C5C"
-        android:textSize="40sp"/>
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/resultTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/jalnan"
-        android:textStyle="bold"
-        android:textColor="#4CAF50"
-        android:textSize="30sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/fragment_back"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+            <TextView
+                android:id="@+id/play_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jalnan"
+                android:textStyle="bold"
+                android:textColor="#EE7804"
+                android:text="1회차"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/fragment_back"
+            android:layout_weight="3"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp">
+        <TextView
+            android:id="@+id/numbersTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jalnan"
+            android:textStyle="bold"
+            android:textColor="#F78404"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jalnan"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:textSize="15sp"/>
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>

@@ -11,7 +11,6 @@ class MyFragment : Fragment() {
     private var position: Int = 0
     private var userNumbers: String? = null
     private var result: String? = null
-
     companion object {
         private const val ARG_POSITION = "position"
         private const val ARG_USER_NUMBERS = "user_numbers"
@@ -49,7 +48,6 @@ class MyFragment : Fragment() {
 
         val numbersTextView = view.findViewById<TextView>(R.id.numbersTextView)
         val resultTextView = view.findViewById<TextView>(R.id.resultTextView)
-
         numbersTextView.text = userNumbers
         resultTextView.text = result
 

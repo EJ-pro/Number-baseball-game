@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#DC7D5F">
+    android:background="#EE7804">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -13,7 +13,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#FF9A4D"
+            android:background="#FF5722"
             android:orientation="horizontal"
             android:gravity="center">
             <TextView
@@ -21,7 +21,7 @@
                 android:layout_height="wrap_content"
                 android:text="Count"
                 android:textSize="20sp"
-                android:textColor="#FFFF9A4D"
+                android:textColor="#FF5722"
                 android:layout_weight="1"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -64,12 +64,13 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/bottom_layout"
         android:layout_below="@+id/top_layout"
-        android:padding="10dp">
+        android:padding="15dp">
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#E68F74">
+            android:padding="10dp"
+            android:background="#F0DAA1">
 
             <LinearLayout
                 android:id="@+id/second_row_layout"
@@ -121,7 +122,7 @@
             <LinearLayout
                 android:layout_width="30dp"
                 android:layout_height="match_parent"
-                android:background="#DC7D5F"/>
+                android:background="#EE7804"/>
 
             <TextView
                 android:layout_width="100dp"
@@ -137,7 +138,7 @@
             <LinearLayout
                 android:layout_width="30dp"
                 android:layout_height="match_parent"
-                android:background="#DC7D5F" />
+                android:background="#EE7804" />
 
             <TextView
                 android:layout_width="100dp"
@@ -235,6 +236,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:paddingBottom="10dp"
             android:paddingLeft="10dp"
             android:paddingEnd="10dp">
 
